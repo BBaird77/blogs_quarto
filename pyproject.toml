@@ -1,0 +1,20 @@
+[project]
+name = "blogs-quarto"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "driab77", email = "144946823+driab77@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "lets-plot>=4.8.2",
+    "polars[async,database,excel,fsspec,graph,numpy,plot,pyarrow,style,timezone]>=1.38.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
