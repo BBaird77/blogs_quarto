@@ -3,7 +3,7 @@ title: "Particulate Matter and Why Tracking is Key."
 author: "Braedan Baird"
 date: "2026-03-28"
 categories: [research, code, analysis]
-image: "PM-explanation.png"
+image: "image.jpg"
 ---
 
 So, as I've been working on this senior project, I realized that one of the things I should explain is what the basis of the project is. PM2.5 is a term for Particulate Matter that is smaller than 2.5 microns, which is a more dangerous variety. It can get deeper into the lungs due to its smaller size, and can have a variety of harmful effects as a direct result of exposure. THe biggest threat is to anyone that has a heart or lung condition, along with children and infants. Additionally, it is frequently associated with the negative health risks from air pollution.
