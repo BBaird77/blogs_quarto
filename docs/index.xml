@@ -10,7 +10,7 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.9.22</generator>
-<lastBuildDate>Sat, 28 Mar 2026 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Mar 2026 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Particulate Matter and Why Tracking is Key.</title>
   <dc:creator>Braedan Baird</dc:creator>
@@ -32,7 +32,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://your-website-url.example.com/posts/Blog-Post-1/</guid>
-  <pubDate>Sat, 28 Mar 2026 06:00:00 GMT</pubDate>
+  <pubDate>Mon, 23 Mar 2026 06:00:00 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/Blog-Post-1/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
