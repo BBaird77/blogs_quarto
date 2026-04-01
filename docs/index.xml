@@ -10,7 +10,33 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.9.22</generator>
-<lastBuildDate>Mon, 23 Mar 2026 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 29 Mar 2026 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Calculates Smoke Effect Across Idaho</title>
+  <dc:creator>Braedan Baird</dc:creator>
+  <link>https://your-website-url.example.com/posts/Blog-Post-2/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Wildfire smoke is complicated. It depends on where fires are burning, how big they are, how the wind is moving, and what air-quality sensors are measuring on the ground. This project brings all of those pieces together to estimate smoke conditions across Idaho and help predict near-future air quality. Estimating smoke risk is really a matter of combining what sensors are currently detecting with what fires and weather suggest will happen next.</p>
+<p>The process starts with air-quality sensors which measure PM2.5. PM2.5, as I explained in my last post, is Particulate Matter that is smaller than 2.5 microns and is found in wildfire smoke. Because sensors are only installed in certain places, they cannot describe air quality everywhere on their own.</p>
+<p>To solve that, the next step is to fill in the gaps between sensors. A grid is placed over the area being studied, and the readings from nearby sensors are used to estimate smoke levels at each point on that grid. This creates a fuller picture of smoke conditions across the whole region, not just at the sensor locations. Once that map is built, it becomes possible to calculate broader measures such as average, typical, and higher-end smoke levels across the region. However, that value alone isn’t enough. Where smoke may be coming from is also a key effect on measuring increases over time. That is where wildfire and wind data come in.</p>
+<p>A smoke transport calculation looks at several factors: size, distance, direction, and wind strength. All of these factors are combined into a transport score. Bigger fires usually contribute more and nearby fires matter more than distant ones. Fires located upwind are more important than fires in other directions, especially if stronger winds can increase the chance that smoke travels. Because smoke often lingers, the process usually does not rely only on the current day. Instead, it also blends in information from the previous few days. That creates a smoother and more realistic picture of smoke buildup over time, which in turn provides a much more useful variable to study. Through looking at recorded data, we can learn and predict how the PM2.5 concentration will change over time, and make more confident assumptions about the risks.</p>
+<p>In the end, smoke calculation is a combination of observation, interpolation, and transport estimation. First, it measures what is already in the air. Then it estimates what the air looks like in places without sensors with a grid. Finally, it adds fire and wind information to estimate how smoke may move and grow over time.</p>
+
+
+
+ ]]></description>
+  <category>research</category>
+  <category>data wrangling</category>
+  <category>analysis</category>
+  <guid>https://your-website-url.example.com/posts/Blog-Post-2/</guid>
+  <pubDate>Sun, 29 Mar 2026 06:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/Blog-Post-2/image.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Particulate Matter and Why Tracking is Key.</title>
   <dc:creator>Braedan Baird</dc:creator>
