@@ -1,8 +1,0 @@
----
-title: "The Complexities of ."
-author: "Braedan Baird"
-date: "2026-03-23"
-categories: [research, code, analysis]
-image: "image.jpg"
----
-
